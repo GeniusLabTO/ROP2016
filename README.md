@@ -1,2 +1,2 @@
 # ROP2016
-Summer 2015 student project
+Group project by Class of Summer 2015

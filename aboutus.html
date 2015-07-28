@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--  <meta name="description" content="Rites of Passage Conference Website" />
+  <meta name="keywords" content="rites of passage, conference, nropi, rop" />
+  <meta name="author" content="Rites of Passage" /> -->
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Signika:600|Bangers' rel='stylesheet' type='text/css'>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+  rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/docs.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- replace this api key!! -->   
+ <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwDRUYBnxPkRRugE0ytEe7Z78D7glCKTQ">
+    </script>
+  <script type="text/javascript">
+
+    function initialize() {
+        var stgeorgeLoc = new google.maps.LatLng(43.6616289,-79.3944301);
+        var crystalromLoc = new google.maps.LatLng(43.6677097,-79.3947771);
+        var centerLoc = new google.maps.LatLng(43.6644223,-79.3993358);
+        var mapOptions = {
+          zoom: 15,
+          center: centerLoc,
+          disableDefaultUI: true,
+          draggable: false,
+          zoomControl: false,
+          scrollwheel: false
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      
+          var marker = new google.maps.Marker({
+              position: stgeorgeLoc,
+              map: map,
+              title: 'University of Toronto'
+          });
+
+          var marker2 = new google.maps.Marker({
+                position: crystalromLoc,
+                map: map,
+                title: 'The Crystal ROM'
+              });
+    }
+    
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+  
+</head>
+<title>
+  Rites of Passage Indaba - July 2016
+</title>
+<body>
+  <header class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/rop.png" class="img-responsive"></a>                    
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html#aboutus">About Us</a>
+          </li>
+          <li>
+            <a href="index.html#Event_Details">Event Details</a>
+          </li>
+          <li>
+            <a href="#">Register</a>
+          </li> 
+          <li>
+            <a href="index.html#Sponsors">Sponsors</a>
+          </li>
+          <li>
+            <a href="#">Donate</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#login" data-toggle="modal" data-target="#login-modal">Login</a>
+
+            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+              <div class="modal-dialog">
+                <div class="loginmodal-container">
+                  <h1>Login to Your Account</h1>
+                  <form>
+                    <input type="text" name="user" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                  </form>
+
+                  <div class="login-help">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>                                              
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- END NAV -->
+  
+<section>
+
+
+
+  <div id="carousel_bottom" class="section text-center text-dark bigtext">
+    <div class="container">                    
+      <h2 class="section-header">About Us</h2>  
+
+      <p class="lead2">The transition from adolescence to responsible adulthood is possibly the most tumultuous passage we, as humans, will undergo. It is filled with emotional, cognitive and physiological challenges, that often result in questioning, rebellion and uncertainty.</p>
+
+      <p class="lead2">Rites of Passage is not a “program”, it is a process of maturation and personal development. Just like similar practices in many indigenous cultures, it is designed to assist young people as they transition into responsible adulthood. This process has a long-term positive impact on one's values, perception of self, level of discipline and commitment to community. Rites, known by many names, is practiced in First Nations Cultures of North and South America, the original Peoples of Australia, and in many Afrikan traditional cultures, just to name a few.</p>  
+
+      <p class="lead2">The Akan of West Afrika believe that this process is critical in affirming and clarifying four age old questions, which, if successfully instituted and embraced, will harvest young adults poised to contribute to the continued building and sustainability of their communities.</p> 
+
+      <div class="bs-example">
+      <div class="jumbotron"> 
+      <ul id="fourq"> 
+        <li class="bullet">Who am I?</li>
+        <li class="bullet">How did I come to be who I am?</li>
+        <li class="bullet">Am I really who I think I am?</li>
+        <li>What is my life purpose?</li>
+      </ul>
+      </div>
+      </div>
+
+     <p class="lead2"><a href="http://www.nropi.org"> The National Rites of Passage Institute (NROPI)</a> in collaboration with communities, organizations, practitioners and scholars, has been elevating the value of culturally-based Rites of Passage in youth and community development for more than 30 years.</p>
+
+      <p class="lead2">The impact of racism, enslavement and the subsequent weakening of cultural systems has devastating and lasting impact on the socialization practice of young people of Afrikan descent to this day. For example, low levels of educational attainment, high unemployment and engagement in high risk behaviors are all a result of the weakened social systems. Knowing where one comes from and the contributions one’s people have made to the development of human history gives one cultural, personal and reverent power.</p> 
+
+    </div>
+
+    
+
+   <div class="container modal-content">
+   <h2 id="video_title">Why Rites of Passage</h2>
+    <div class="jumbotron">
+  
+	 <video controls id="vid">
+	  	<source src="vids/rop-promo.mp4" type="video/mp4">
+	 </video>
+
+  
+  </div>
+  </div>
+  </div>
+
+  </div>  <!-- end register_box -->  
+</section>
+
+
+<section class="section bg-widow">
+  <div class="container">
+    <div class="row bottom-buffer">
+      <div class="col-md-12">
+        <h2 class="section-header">Testimonials</h2>
+      </div>
+    </div>
+
+    <div class="container">
+  
+  <div class='row'>
+    <div class='col-md-10'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/nefe.png" style="width: 150px;height:150px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>During my time at Rites of Passage, I leant so much about the history of my family and our heritage. It was awesome!</p>
+                  <small><a href="#">Nefe, ROP Graduate</a></small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/lamar.jpg" style="width: 150px;height:150px;" alt="Kendrick Lamar">
+                </div>
+                <div class="col-sm-9">
+                  <p>Growing up without an older brother has been tough. Through ROP I met the family I never had.</p>
+                  <small><a href="#">Kendrick Lamar, ROP Candidate</a></small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/drake.jpg" style="width: 150px;height:150px;" alt="Drake">
+                </div>
+                <div class="col-sm-9">
+                  <p>My boy did ROP and said it was dope. I can't wait to be a part of this. Class of 2016!</p>
+                  <small><a href="#">Drake, ROP Candidate</a></small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section>
+  <div id="carousel_bottom" class="section text-center text-dark">
+    <div class="container">                    
+      <h2 class=section-header>Core Principles</h2>      
+      <img class ="four" src="img/nguzo-name1.jpg" name="aboutme" width="700" height="500" alt="Nguzo">
+    </div>
+  </div>  <!-- end register_box -->  
+</section>
+
+
+<section class="section bg-widow">
+  <div class="container">
+    <div class="row bottom-buffer">
+      <div class="col-md-12">
+        <h2 class="section-header">The Toronto Team</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row destacados">
+        <div class="col-md-2">
+          
+            <img src="team/Hinds.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Allison</h3>
+            <h3>Parent Liaison</h3>
+          
+        </div>   
+        <div class="col-md-2">
+          
+            <img src="team/Pasipanodya.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Chiedza</h3>
+            <h3>Facilitator</h3>
+         
+        </div>
+        <div class="col-md-2">
+        
+            <img src="team/Donkor.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Debbie</h3>
+            <h3>Facilitator</h3>
+          
+        </div>
+        <div class="col-md-2">
+          
+            <img src="team/Osborne.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Paul</h3>
+            <h3>Manager</h3>
+          
+        </div>
+        <div class="col-md-2">
+          
+           <img src="team/Ariefdien.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Shaheen</h3>
+            <h3>Facilitator</h3>
+        
+        </div>
+        <div class="col-md-2">
+         
+            <img src="team/Riley.jpg" name="aboutme" class="img-circle" alt="team">
+            <h3>Tanika</h3>
+            <h3>Facilitator</h3>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bg-volcanoland section">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="row" id="contact"> -->
+          <p>&copy;2015 <a href="http://www.woodgreen.org/">WoodGreen Community Services</a>. Designed by Spring 2015 Digital Tech workshop participants. Powered by Bootstrap.</p>
+  
+          <div>
+            <ul class="socialmedia">
+            <li><a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a></li>
+            <li><a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a></li>
+            <li><a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a></li>
+            </ul>
+          </div>
+      </div><!-- end row!-->
+    </div><!-- end container -->
+  </footer>
+      <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+    <script src = "js/myscript.js"></script>
+</body>
+</html>

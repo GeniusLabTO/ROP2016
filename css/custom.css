@@ -1,0 +1,720 @@
+/* Main body */
+body {
+  color: #FFF;
+  font-size: 16px;
+  padding-top: 65px;
+  text-align: center;
+  background-color: #000;
+
+}
+
+body, h1, h2, h3 { /*  font-family: 'Signika', sans-serif;*/ 
+font-family: tahoma, arial, helvetica, sans-serif; }
+
+
+
+.btn-custom {
+  color: #FFF;
+  border-color: #cccccc;
+}
+
+.btn-custom:hover {
+  color: #FFF39F;
+  }
+
+/* Navbar Stuff */
+
+.navbar {
+  padding: .5em;
+}
+.navbar-inverse {
+    background-color: #C13828;
+    border-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav a, .navbar-brand {
+  color: #FFF !important;
+  font-size: 1.2em;
+}
+
+.navbar-inverse .navbar-nav li:hover {
+  background-color: #8f352d;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+
+.lead2  {
+  margin-bottom:20px;
+  font-size:20px;
+  font-weight:300; 
+  line-height:1.4;
+  text-align: left;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  color: black; 
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  color: black;
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #C13828;
+  padding: 17px 0px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+
+/*Team Images*/
+.img-circle {
+  width: 125px;
+  height: 125px;
+}
+
+footer a {
+    color: #FFF39F;
+}
+
+
+
+.img-responsive {
+  width: 150px;
+  margin: 10px auto;
+}
+
+.four {
+  max-width: 100%;
+}
+
+/* Section Colors */
+.bg-darkgreen, .bg-overdone, .bg-widow {
+  background-image: url("../img/adinkra_pattern.png");
+}
+
+.bg-darkgreen {
+  background-color: #679180;
+}
+
+.bg-overdone {
+  background-color: #404040;
+}
+
+.bg-widow {
+  background-color: #404040;
+}
+
+.bg-volcanoland {
+  background-color: #C13828;
+}
+
+.bg-bubblegum {
+  background-color: #E44F60;
+}
+
+.bg-white {
+  background-color: #fff;
+
+}
+
+/* Text colors */
+.text-dark {
+  color: #fff;
+}
+
+/* Carousel Stuff */
+.carousel img {
+  max-height: 700px;
+}
+.caption-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#register_box {
+  padding: 1em;
+  text-align: center;
+}
+
+#carousel_bottom {
+  padding: 2em 0;
+  color: #fff;
+}
+
+/* fullwidth video (not cross-browser compatible) */
+#mainvideo{
+ /* max-height: 600px;*/
+  overflow: hidden;
+
+}
+
+video { width: 100%;
+}
+
+#vid {
+  width: 60%;
+
+}
+
+/*Event Details - Calendar Table*/
+#lunch {
+  font-weight: bold;
+}
+
+
+.video-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  z-index: 99;
+  width: 100%;
+}
+
+#video_title {
+  color: #000;
+  top: 15px;
+  left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #444f51;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Section Stuff */
+
+.top-buffer { margin-top:2em; }
+.bottom-buffer { margin-bottom:2em; }
+
+/* add the section class to a section to give it padding */
+.section {
+  padding: 2em .5em;
+}
+
+section a {
+  color: #FFF39F;
+}
+
+/* this adds a > before links only in certain section */
+/*section.section a::before{
+  content: "> ";
+}*/
+
+.section-header {
+  font-size: 3em;
+  margin: 0 0 1em 0;
+  color: #fff;
+}
+
+
+
+.section-header-inverse {
+  font-size: 3em;
+  margin: 0 0 1em 0;
+  color: #000;
+}
+
+
+#map-box {
+  position: relative;
+}
+
+#map {
+  width: 100%;
+}
+
+.location-info {
+  position: absolute;
+  width: 35%;
+  left: 65.3%;
+  z-index: 100;
+  top: 0;
+  padding: 1em;
+  background-color: rgba(00, 00, 00, .7);
+  display: block;
+  }
+
+/* Footer Stuff */  
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: #FFF;
+}
+
+#socialmedia {
+  text-align: center;
+}
+
+
+#contactinfo {
+  text-align: center;
+  padding: 0 25px;
+}
+
+#h3contact {
+  text-align: center;
+  padding: 0 25px;
+}
+
+footer ul li{
+  display: inline-block;
+  float: none;
+/*  position: relative;*/
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0 auto;
+  padding-right: 20px;
+  clear: both;
+}
+
+.imagecenter {
+  margin: 0 97px;
+  text-align: center;
+}
+
+.btn-toolbar .btn{
+  display: inline-block;
+  background-color: red;
+  float: none;
+}
+
+.sponsor {
+  padding: 25px 0;
+
+}
+
+.sponsorimage {
+  margin: 0 10px;
+}
+
+/*MAP*/
+#map-box {
+  position: relative;
+
+}
+
+#map-canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Media Queries */
+@media (min-width: 990px) {
+  .people-row div:nth-child(2n+1) {
+    clear: both;
+    margin-top: 30px;
+  }
+
+#map-box {
+  height: 600px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .people-row img {
+    max-width: 200px;
+  }
+
+  
+#map-box {
+  height: 300px;
+  }
+
+}
+
+h2{
+  font-size: 2.2em;
+}
+
+
+
+ #tim  {
+   font-size: 2.2em;
+   text-align: center;
+   color: #A3AF07
+ }
+
+ table td {
+  text-align: left; 
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+
+
+#login-modal {
+  z-index: 590;
+}
+
+.fade {
+  z-index: 100;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 5px;  
+  /*text-align: justify;*/
+}
+
+#fourq {
+  color: black;
+  list-style: none;
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: .25em;
+}
+
+#fourq li {
+  border-bottom: 2px solid #C13828;
+}
+
+#fourq li:last-child {
+  border-bottom: none;
+}
+
+.jumbotron {
+  padding: 1em 20px 1em 20px;
+}
+
+.bs-example:after {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #444f51;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "The Four Questions";
+}
+
+#properly {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: justify;
+  color: #C13828;
+
+
+}
+
+#eight {
+  text-align: justify;
+  font-size: 16px;
+  padding-bottom: 20px;
+
+}
+
+
+#lol { 
+  text-align: justify;
+  font-size: 16px;
+  padding-top: 40px;
+
+}
+
+
+#indent { 
+  text-align: justify;
+  font-size: 16px;
+  padding-top: 40px;
+
+}
+
+
+#au {
+  font-size: 3em;
+  margin: 0 0 1em 0;
+  color: #C13828;
+}
+
+h4, h5 {
+  text-align: left;
+  color: black;
+  padding-bottom: 50px;
+}
+
+/*.glyphicon  {
+  color: red;
+  font-size: 34px;
+  text-align: left;*/
+
+}
+
+.small {
+  text-align: center;
+}
+
+
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+  text-align: left;
+
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: black;
+
+}
+
+
+.media-heading {
+  color: black;
+
+}
+
+.modal-body {
+  color: black;
+}
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: -5px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0 auto;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+/*Adinkra bulletted list*/
+
+/*section li {
+  background: url("img/adinkra.jpg") 0 50% no-repeat;
+  list-style-type: none;
+  padding-left: 15px;
+  color: blue
+}*/
+
+/*Confirmed Participant section*/
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+/* these 3 rules are for the agenda */
+
+
+#agenda h3, p {
+  margin: 0;
+}
+
+#agenda .col-sm-4 .row {
+    background-color: #333;
+    padding: 1em;
+}
+
+.agenda-date {
+  background-color: #72AD4D !important;
+}
